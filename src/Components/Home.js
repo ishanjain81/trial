@@ -8,7 +8,6 @@ import Button from '@mui/material/Button';
 import Alert from '@mui/material/Alert';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import axios from 'axios';
 
 function Home() {
     const [slot, setSlot] = useState('');
